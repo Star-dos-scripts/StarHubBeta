@@ -21,6 +21,20 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Updated-Rael-Hub-31509"))()
   	end    
 })
+Tab:AddButton({
+	Name = "Jãozin HubBR",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "AVISO DO JOÃO!",
+	Content = "Nosso script esta desativado temporariamente pois estamos trabalhando na versão V2 do jãozin hub",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+  	end    
+})
+
+
 local Section = Tab:AddSection({
 	Name = "MM2"
 })
@@ -30,6 +44,10 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
   	end    
 })
+local Section = Tab:AddSection({
+	Name = "Avisos!"
+})
+
 
 Tab:AddParagraph("Aviso","SIM! o script esta beta! pois os mods estão sem ideias! mande ideias no discord!")
 
