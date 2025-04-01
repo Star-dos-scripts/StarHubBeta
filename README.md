@@ -10,16 +10,14 @@ local Section = Tab:AddSection({
 	Name = "Brookhaven"
 })
 Tab:AddButton({
-	Name = "ChaosHub",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Luscaa22/Calabocaa/refs/heads/main/ChaosHub"))()
-  	end    
-})
-Tab:AddButton({
 	Name = "Rael Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Updated-Rael-Hub-31509"))()
   	end    
+})
+local Section = Tab:AddSection({
+	Name = "Em breve!"
+	
 })
 Tab:AddButton({
 	Name = "Jãozin HubBR",
@@ -30,9 +28,17 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-
+local Section = Tab:AddSection({
+	Name = "Brookhaven ( KEY )"
+})
+Tab:AddButton({
+	Name = "ChaosHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Luscaa22/Calabocaa/refs/heads/main/ChaosHub"))()
   	end    
 })
+
+  
 
 
 local Section = Tab:AddSection({
