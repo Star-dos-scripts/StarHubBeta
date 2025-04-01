@@ -78,15 +78,3 @@ Tab:AddButton({
         setclipboard("https://discord.gg/GDzauHRPzp")
     end
 })
-local Tab = Window:MakeTab({
-	Name = "Universal!",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "ESP",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/wa0101/Roblox-ESP/refs/heads/main/esp.lua",true))()
-  	end    
-})
