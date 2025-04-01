@@ -90,11 +90,3 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/wa0101/Roblox-ESP/refs/heads/main/esp.lua",true))()
   	end    
 })
-Tab:AddButton({
-    Name = "Ativar Spam",
-    Callback = function()
-        while true do
-            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Mensagem de spam!", "All")
-            wait(1) -- Tempo entre mensagens
-        end
-})
