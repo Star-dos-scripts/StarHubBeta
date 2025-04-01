@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "StarHub : Versão : BETA", HidePremi
 
 local Tab = Window:MakeTab({
 	Name = "BETA",
-	Icon = "rbxassetid://95002016991260",
+	Icon = "rbxassetid:// 95002016991260",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
@@ -55,7 +55,7 @@ Tab:AddParagraph("Aviso","SIM! o script esta beta! pois os mods estão sem ideia
 
 local Tab = Window:MakeTab({
 	Name = "Discord!",
-	Icon = "rbxassetid://78634733259759",
+	Icon = "rbxassetid:// 78634733259759",
 	PremiumOnly = false
 })
 Tab:AddButton({
