@@ -37,7 +37,7 @@ Tab:AddParagraph("Aviso","SIM! o script esta beta! pois os mods estão sem ideia
 
 local Tab = Window:MakeTab({
 	Name = "Discord!",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://78634733259759",
 	PremiumOnly = false
 })
 Tab:AddButton({
