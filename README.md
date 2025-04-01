@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "StarHub : Versão : BETA", HidePremi
 
 local Tab = Window:MakeTab({
 	Name = "BETA",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://95002016991260",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
