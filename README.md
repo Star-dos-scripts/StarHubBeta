@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Star-dos-scripts/OrionLibYellow/refs/heads/main/README.md')))()
 local Window = OrionLib:MakeWindow({Name = "StarHub : Versão : BETA", HidePremium = false, SaveConfig = true, ConfigFolder = "StaRHub"})
 
 local Tab = Window:MakeTab({
